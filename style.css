@@ -27,6 +27,9 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 }
+h2{
+    font-size: 40px;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -35,4 +38,31 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.experience-item{
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center ;
 }
